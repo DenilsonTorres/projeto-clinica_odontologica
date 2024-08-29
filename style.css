@@ -1,0 +1,64 @@
+/* Estilo geral do site */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #9ccafc4f;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer ;
+    background-color: #4169A7;
+    color: #FFf;
+
+}
+
+/* CABEÇALHO */
+header {
+    padding: 40px 4%;
+    /* background-color: #2EC4BA; */
+
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header a {
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    font-weight: 550;
+
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav.menu-desktop li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.logo img {
+    width: 140px;
+}
