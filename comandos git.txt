@@ -1,0 +1,7 @@
+:Subir alterações:
+
+git add .
+
+git commit -m "MENSAGEM DO COMMIT"
+
+git push
