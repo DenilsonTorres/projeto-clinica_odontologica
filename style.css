@@ -8,12 +8,16 @@
 
 body {
     height: 100vh;
-    background-color: #9ccafc4f;
+    /* background-color: #9ccafc4f; */
 }
 
 .interface {
     max-width: 1280px;
     margin: 0 auto;
+}
+
+.flex {
+    display: flex;
 }
 
 .btn-contato button {
@@ -22,17 +26,24 @@ body {
     font-weight: 500;
     border: 0;
     border-radius: 30px;
-    cursor: pointer ;
+    cursor: pointer;
     background-color: #4169A7;
     color: #FFf;
-
 }
+
+button:hover {
+    box-shadow: 0px 0px 8px #0066ffb0;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+
 
 /* CABEÇALHO */
 header {
     padding: 40px 4%;
-    /* background-color: #2EC4BA; */
 
+    background-color: #9ccafc4f
 }
 
 header>.interface {
@@ -42,12 +53,11 @@ header>.interface {
 }
 
 header a {
-    color: #000;
+    color: #4169A7;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
     font-weight: 550;
-
 }
 
 header nav ul {
@@ -59,6 +69,47 @@ header nav.menu-desktop li {
     padding: 0 40px;
 }
 
+header nav.menu-desktop a:hover {
+    color: #4169A7;
+    transform: scale(1.05);
+}
+
 .logo img {
-    width: 140px;
+    width: 130px;
+}
+
+/* Topo do Site */
+
+section.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1 {
+    color: #4169A7;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-do-site p {
+    margin: 40px 0;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.topo-do-site .txt-topo-do-site h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #4169A7;
+}
+
+.topo-do-site .img-topo-do-site img {
+    position: relative;
+    width: 700px;
+    border-radius: 0 25px 25px;
 }
