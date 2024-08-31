@@ -46,6 +46,11 @@ button:hover {
     transition: .2s;
 }
 
+.logo:hover {
+    transform: scale(1.05);
+    transition: .2s;
+}
+
 
 
 /* CABEÇALHO */
@@ -102,6 +107,9 @@ section.topo-do-site .flex {
     color: #4169A7;
     font-size: 35px;
     line-height: 40px;
+    padding: 0 25px;
+
+
 }
 
 .topo-do-site .txt-topo-do-site p {
@@ -109,12 +117,14 @@ section.topo-do-site .flex {
     font-size: 18px;
     line-height: 20px;
     text-align: justify;
+    padding: 0 25px;
 }
 
 .topo-do-site .txt-topo-do-site h3 {
     font-size: 22px;
     font-weight: 700;
     color: #4169A7;
+    padding: 0 25px;
 }
 
 .topo-do-site .img-topo-do-site img {
@@ -122,6 +132,10 @@ section.topo-do-site .flex {
     width: 700px;
     border-radius: 0 25px 25px;
     opacity: 70%;
+}
+
+.topo-do-site .btn-contato{
+    padding: 0 25px;
 }
 
 
