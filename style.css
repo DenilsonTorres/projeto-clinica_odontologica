@@ -120,7 +120,7 @@ section.topo-do-site .flex {
 
 section.sobre {
     padding: 40px 2%;
-    margin-top: 60px;
+    margin-top: 40px;
     background-color: #9ccafc4f
 }
 
@@ -157,3 +157,46 @@ section.sobre .flex {
     text-align: center;
     margin-top: 40px;
 }
+
+/* Nossos Serviços */
+
+section.services {
+    padding: 40px 4%;
+}
+
+section.services .flex {
+    gap: 60px;
+}
+
+.services .services-box {
+    /* color: #4169A7; */
+    /* border: 2px solid #416aa7c4; */
+    padding: 30px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .2s;
+
+}
+
+.services .services-box:hover {
+    transform: scale(1.05s);
+    box-shadow: 0 0 8px #ffffff00;
+
+}
+
+/* .services .services-box i {
+    width: 50px;
+    color: #4169A7;
+
+} */
+
+.services .services-box h3 {
+    font-size: 22px;
+    margin: 15px 0;
+    color: #4169A7;
+    text-align: center;
+}
+
+/* .services .services-box p {
+    font-size: 15px;
+} */
