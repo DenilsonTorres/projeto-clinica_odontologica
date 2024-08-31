@@ -20,6 +20,15 @@ body {
     display: flex;
 }
 
+h2.title {
+    color: #4169A7;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 .btn-contato button {
     padding: 10px 40px;
     font-size: 18px;
@@ -41,7 +50,7 @@ button:hover {
 
 /* CABEÇALHO */
 header {
-    padding: 40px 4%;
+    padding: 0 4%;
     background-color: #9ccafc4f
 }
 
@@ -133,6 +142,12 @@ section.sobre .flex {
     color: #000;
 }
 
+.sobre .txt-sobre h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
 .sobre .txt-sobre p {
     margin: 20px 0;
     text-align: justify;
@@ -151,6 +166,7 @@ section.sobre .flex {
     width: 350px;
     position: relative;
     border-radius: 20px;
+    border-bottom: 6px solid #4169A7;
 }
 
 .sobre .btn-contato {
@@ -170,18 +186,17 @@ section.services .flex {
 
 .services .services-box {
     /* color: #4169A7; */
-    /* border: 2px solid #416aa7c4; */
+    border: 2px solid #416aa76b;
     padding: 30px;
     margin-top: 45px;
     border-radius: 20px;
     transition: .2s;
-
+    border-bottom: 6px solid #4169A7;
 }
 
 .services .services-box:hover {
-    transform: scale(1.05s);
-    box-shadow: 0 0 8px #ffffff00;
-
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #4169A7;
 }
 
 /* .services .services-box i {
@@ -197,6 +212,7 @@ section.services .flex {
     text-align: center;
 }
 
-/* .services .services-box p {
+.services .services-box p {
     font-size: 15px;
-} */
+    text-align: center;
+}
