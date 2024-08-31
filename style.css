@@ -42,7 +42,6 @@ button:hover {
 /* CABEÇALHO */
 header {
     padding: 40px 4%;
-
     background-color: #9ccafc4f
 }
 
@@ -81,7 +80,7 @@ header nav.menu-desktop a:hover {
 /* Topo do Site */
 
 section.topo-do-site {
-    padding: 40px 4%;
+    padding: 40px 2%;
 }
 
 section.topo-do-site .flex {
@@ -100,6 +99,7 @@ section.topo-do-site .flex {
     margin: 40px 0;
     font-size: 18px;
     line-height: 20px;
+    text-align: justify;
 }
 
 .topo-do-site .txt-topo-do-site h3 {
@@ -112,4 +112,48 @@ section.topo-do-site .flex {
     position: relative;
     width: 700px;
     border-radius: 0 25px 25px;
+    opacity: 70%;
+}
+
+
+/* Sobre */
+
+section.sobre {
+    padding: 40px 2%;
+    margin-top: 60px;
+    background-color: #9ccafc4f
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre {
+    color: #000;
+}
+
+.sobre .txt-sobre p {
+    margin: 20px 0;
+    text-align: justify;
+    padding: 0 100px;
+    font-size: 20px;
+}
+
+.sobre .txt-sobre h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #4169A7;
+    padding: 0 100px;
+}
+
+.sobre .img-sobre img {
+    width: 350px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.sobre .btn-contato {
+    text-align: center;
+    margin-top: 40px;
 }
