@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -37,7 +37,6 @@ h2.title {
     border-radius: 30px;
     cursor: pointer;
     background-color: #00bfa6;
-
     color: #FFf;
 }
 
@@ -106,29 +105,32 @@ section.topo-do-site .flex {
 
 .topo-do-site h1 {
     color: #4169A7;
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 50px;
+    line-height: 50px;
     padding: 0 25px;
-
-
+    font-weight: 700;
 }
 
 .topo-do-site .txt-topo-do-site p {
     margin: 40px 0;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 25px;
     text-align: justify;
     padding: 0 25px;
+    font-weight: 300;
 }
+
 
 .topo-do-site .txt-topo-do-site h3 {
     font-size: 22px;
     font-weight: 700;
     color: #4169A7;
     padding: 0 25px;
+    font-weight: 500;
 }
 
 .topo-do-site .img-topo-do-site img {
+    left: 15px;
     position: relative;
     width: 700px;
     border-radius: 0 25px 25px;
@@ -161,6 +163,8 @@ section.sobre .flex {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
+    font-weight: 700;
+
 }
 
 .sobre .txt-sobre p {
@@ -168,6 +172,8 @@ section.sobre .flex {
     text-align: justify;
     padding: 0 100px;
     font-size: 20px;
+    font-weight: 300;
+
 }
 
 .sobre .txt-sobre h3 {
@@ -178,6 +184,7 @@ section.sobre .flex {
 }
 
 .sobre .img-sobre img {
+    left: 45px;
     width: 350px;
     position: relative;
     border-radius: 20px;
@@ -203,7 +210,7 @@ section.services .flex {
 }
 
 .services .services-box {
-    border: 1px solid #00bfa6af;
+    border: 0.5px solid #04c2a97a;
     padding: 30px;
     width: 240px;
     height: 240px;
@@ -217,14 +224,17 @@ section.services .flex {
 
 .services .services-box:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 8px #00bfa6;
+    box-shadow: 0 0 4px #00bfa6;
 }
 
 .services .services-box h3 {
-    font-size: 22px;
+    font-size: 20px;
     margin: 15px 0;
     color: #4169A7;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+
 }
 
 .services .services-box p {
@@ -232,11 +242,6 @@ section.services .flex {
     text-align: center;
 }
 
-/* .services img {
-    width: 60px;
-    text-align: center;
-    opacity: 60%;
-} */
 
 /* Contato */
 
@@ -246,7 +251,6 @@ section.contact {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    background-color: #9ccafc4f;
     border-radius: 8px;
     margin-bottom: 60px;
 }
@@ -260,6 +264,7 @@ section.contact {
 }
 
 .txt-contact img {
+    left: 50px;
     width: 500px;
     border-radius: 25px;
 }
@@ -269,7 +274,6 @@ section.contact {
     font-size: 30px;
     color: #4169A7;
     text-align: center;
-
 }
 
 .txt-contact p {
@@ -278,16 +282,6 @@ section.contact {
     margin-bottom: 20px;
     color: #000;
 }
-
-/* .txt-contact button {
-    background-color: #4169A7;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-} */
 
 .contact .contact-list {
     flex: 1;
@@ -302,7 +296,7 @@ section.contact {
     border-radius: 8px;
     padding: 15px;
     background-color: #FFf;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.322);
     display: flex;
     flex-direction: column;
     width: 600px;
@@ -336,11 +330,11 @@ section.contact {
 /* Rodapé */
 
 footer {
-    background-color: #f4f4f4;
+    background-color: #00bfa63a;
     padding: 20px;
     color: #333;
     border-top: 2px solid #416aa723;
-
+    line-height: 25px;
 
 }
 
@@ -355,7 +349,6 @@ footer {
     flex: 1;
     margin: 10px;
     text-align: center;
-
 }
 
 .clinic-logo img {
